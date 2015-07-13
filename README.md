@@ -32,13 +32,6 @@ with (Objective-C, aka Cocoa):
 }
 ```
 
-or (Swift):
-```swift
-func widgetMarginInsetsForProposedMarginInsets(defaultMarginInsets: UIEdgeInsets) -> UIEdgeInsets {
-  return UIEdgeInsetsZero
-}
-```
-
 ## Credits
 **I don't need any credit for this! Don't even mention my name, it's all yours!**
 
