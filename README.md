@@ -25,7 +25,7 @@ If you want to remove the left padding, replace this inside **TodayViewControlle
    return margins;
 }
 ```
-with (Objective-C, aka Cocoa):
+with:
 ```objectivec
 - (UIEdgeInsets)widgetMarginInsetsForProposedMarginInsets:(UIEdgeInsets)margins {
   return UIEdgeInsetsZero;
