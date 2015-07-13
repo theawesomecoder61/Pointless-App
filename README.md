@@ -13,7 +13,7 @@ Or Cocoa, however you call it.
 The Today Widget API is only supported on iOS 8 or newer.
 
 ## How to use this thing
-1. Click **Download ZIP** or [https://github.com/theawesomecoder61/Pointless-App/archive/master.zip](click here)].
+1. Click **Download ZIP** or [https://github.com/theawesomecoder61/Pointless-App/archive/master.zip](click here).
 2. Open Xcode (if you have a Mac) and run the **.xcodeproj** file
 3. **Note!** There is no developer or certificate linked to the project, so you could upload the app to the App Store if you'd like
 
