@@ -18,15 +18,21 @@ The Today Widget API is only supported on iOS 8 or newer.
 3. **Note!** There is no developer or certificate linked to the project, so you could upload the app to the App Store if you'd like
 
 ## Tip
-If you want to remove the left padding, put this inside **TodayViewController.m**:
-Objective-C (Cocoa):
+If you want to remove the left padding, replace this inside **TodayViewController.m**:
+```objectivec
+- (UIEdgeInsets)widgetMarginInsetsForProposedMarginInsets:(UIEdgeInsets)margins {
+   margins.bottom = 10.0;
+   return margins;
+}
+```
+with (Objective-C, aka Cocoa):
 ```objectivec
 -(UIEdgeInsets)widgetMarginInsetsForProposedMarginInsets:(UIEdgeInsets)defaultMa‌​rginInsets{
   return UIEdgeInsetsZero;
 }
 ```
 
-or in Swift: 
+or (Swift):
 ```swift
 func widgetMarginInsetsForProposedMarginInsets(defaultMarginInsets: UIEdgeInsets) -> UIEdgeInsets {
   return UIEdgeInsetsZero
